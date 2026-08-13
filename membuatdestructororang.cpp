@@ -26,3 +26,22 @@ public:
     orang(string pNama) :nama(pNama) {
         cout << "Orang dibuat\n" << endl;
     }
+
+    #include <iostream>
+#include <string>
+using namespace std;
+
+//pembuatan class orang
+class orang {
+public:
+    //deklarasi member variable dari class orang
+    string nama;
+
+        //pembuatan constructor dan destructor dari class orang
+    orang(string pNama) :nama(pNama) {
+        cout << "Orang dibuat\n" << endl;
+    }
+
+        ~orang() {
+        cout << "Orang dihapus\n" << endl;
+    }
