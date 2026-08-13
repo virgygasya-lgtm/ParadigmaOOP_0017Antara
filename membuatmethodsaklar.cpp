@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+#include <iostream>
+using namespace std;
+
+class remoteLampu {
+private:
+    string saklarNo[5];
+
+    #include <iostream>
+using namespace std;
+
+class remoteLampu {
+private:
+    string saklarNo[5];
+
+    public:
+    void setSaklarNo(int i, string value) {
+        saklarNo[i] = value;
+    }
