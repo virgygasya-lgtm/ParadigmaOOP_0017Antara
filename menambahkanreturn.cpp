@@ -124,3 +124,5 @@ public:
 
 int main() {
     AbstraksiKlas ak;
+
+    return 0;
